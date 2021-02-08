@@ -1,0 +1,15 @@
+<html>
+<body>
+    <h1>this is from html</h1>
+    <p>this is from md:</p>
+    {{content}}
+    <p>variables: </p>
+    {{page.exampleVar}}
+    <ul>
+        <h1>a dict!</h1>
+    {% for item in page.dictExample %}
+        <li>{{item}}</li>
+    {%endfor%}
+    </ul>
+</body>
+</html>
